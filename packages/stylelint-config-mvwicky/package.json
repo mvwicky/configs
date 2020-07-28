@@ -1,0 +1,9 @@
+{
+  "name": "stylelint-config-mvwicky",
+  "version": "0.0.1",
+  "description": "Personal stylelint config",
+  "main": "index.js",
+  "repository": "https://github.com/mvwicky/configs",
+  "author": "Michael Van Wickle <me@michaelvanwickle.com>",
+  "license": "MIT"
+}
