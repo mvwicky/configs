@@ -1,0 +1,12 @@
+{
+  "json.schemas": [
+    {
+      "fileMatch": ["packages/eslint-config-wwigwt/config.json"],
+      "url": "https://json.schemastore.org/eslintrc"
+    },
+    {
+      "fileMatch": ["packages/stylelint-config-mvwicky/config.json"],
+      "url": "https://json.schemastore.org/stylelintrc"
+    }
+  ]
+}

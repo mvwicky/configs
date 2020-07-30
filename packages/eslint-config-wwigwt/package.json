@@ -2,7 +2,11 @@
   "name": "eslint-config-wherewasigoing",
   "version": "0.0.1",
   "description": "eslint configuration for a blog",
-  "repository": "https://github.com/mvwicky/eslint-config-wwigwt",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvwicky/configs",
+    "directory": "packages/eslint-config-wwigwt"
+  },
   "license": "MIT",
   "author": "Michael Van Wickle <me@michaelvanwickle.com>",
   "main": "index.js",

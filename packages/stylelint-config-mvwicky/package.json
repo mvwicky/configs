@@ -3,7 +3,25 @@
   "version": "0.0.1",
   "description": "Personal stylelint config",
   "main": "index.js",
-  "repository": "https://github.com/mvwicky/configs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mvwicky/configs",
+    "directory": "packages/stylelint-config-mvwicky"
+  },
   "author": "Michael Van Wickle <me@michaelvanwickle.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "peerDependencies": {
+    "stylelint": "^13.3.3",
+    "prettier": "^2.0.5"
+  },
+  "devDependencies": {
+    "prettier": "^2.0.5",
+    "stylelint": "^13.6.1"
+  },
+  "dependencies": {
+    "stylelint-config-prettier": "^8.0.2",
+    "stylelint-config-standard": "^20.0.0",
+    "stylelint-order": "^4.1.0",
+    "stylelint-prettier": "^1.1.2"
+  }
 }
