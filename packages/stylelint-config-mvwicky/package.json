@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-mvwicky",
-  "version": "0.0.2",
+  "version": "0.0.3",
   "description": "Personal stylelint config",
   "main": "index.js",
   "repository": {
