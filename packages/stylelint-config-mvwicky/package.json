@@ -1,6 +1,6 @@
 {
   "name": "stylelint-config-mvwicky",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "Personal stylelint config",
   "main": "index.js",
   "repository": {
@@ -11,8 +11,8 @@
   "author": "Michael Van Wickle <me@michaelvanwickle.com>",
   "license": "MIT",
   "peerDependencies": {
-    "stylelint": "^13.3.3",
-    "prettier": "^2.0.5"
+    "prettier": "^2.0.5",
+    "stylelint": "^13.3.3"
   },
   "devDependencies": {
     "prettier": "^2.0.5",
