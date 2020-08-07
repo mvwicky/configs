@@ -14,10 +14,6 @@
     "prettier": "^2.0.5",
     "stylelint": "^13.3.3"
   },
-  "devDependencies": {
-    "prettier": "^2.0.5",
-    "stylelint": "^13.6.1"
-  },
   "dependencies": {
     "stylelint-config-prettier": "^8.0.2",
     "stylelint-config-standard": "^20.0.0",

@@ -2,6 +2,13 @@
   "name": "root",
   "private": true,
   "devDependencies": {
-    "lerna": "^3.22.1"
+    "lerna": "^3.22.1",
+    "prettier": "^2.0.5",
+    "stylelint": "^13.6.1",
+    "eslint": "^7.3.1"
+  },
+  "dependencies": {
+    "eslint-config-wherewasigoing": "file:packages/eslint-config-wwigwt",
+    "stylelint-config-mvwicky": "file:packages/stylelint-config-mvwicky"
   }
 }
