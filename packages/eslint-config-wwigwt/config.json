@@ -1,19 +1,34 @@
 {
   "extends": [
     "eslint:recommended",
-    "plugin:prettier/recommended",
     "plugin:import/recommended",
-    "plugin:import/typescript"
+    "plugin:import/typescript",
+    "plugin:prettier/recommended"
   ],
   "plugins": ["@typescript-eslint", "prettier", "import"],
   "rules": {
-    "no-unused-vars": 0,
+    "no-unused-vars": "off",
     "prettier/prettier": "error",
     "sort-imports": [
       "error",
       {
         "ignoreDeclarationSort": true,
         "memberSyntaxSortOrder": ["none", "all", "single", "multiple"]
+      }
+    ],
+    "import/order": [
+      "error",
+      {
+        "alphabetize": { "order": "asc" },
+        "groups": [
+          "builtin",
+          "external",
+          "internal",
+          ["sibling", "parent"],
+          "unknown",
+          "index"
+        ],
+        "newlines-between": "always"
       }
     ]
   },
@@ -24,6 +39,11 @@
       "typescript": {
         "alwaysTryTypes": true
       }
+    },
+    "import/core-modules": ["os", "path", "process", "fs", "util", "crypto"],
+    "import/extensions": [".js", ".ts"],
+    "import/parsers": {
+      "@typescript-eslint/parser": [".ts"]
     }
   }
 }
