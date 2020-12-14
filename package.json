@@ -4,7 +4,6 @@
   "workspaces": [
     "packages/*"
   ],
-  "dependencies": {},
   "devDependencies": {
     "eslint": "^7.3.1",
     "husky": "^4.3.0",
