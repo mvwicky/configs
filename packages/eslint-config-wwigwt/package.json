@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-wherewasigoing",
-  "version": "0.3.0",
+  "version": "1.0.0",
   "description": "eslint configuration for a blog",
   "repository": {
     "type": "git",
